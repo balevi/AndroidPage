@@ -65,6 +65,11 @@ nav{
      background-color: var(--cor5);
      box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.842);
      margin-bottom: 7px;
+     
+}
+
+nav li {
+    display: inline;
 }
 
 
@@ -82,10 +87,7 @@ nav a:hover {
      color: var(--cor4);
 }
 
-li {
-    display: inline;
-    padding: 6px 10px;
-}
+
 
 main {
     background-color: #ffffff;
@@ -157,13 +159,37 @@ article > h2 {
 }
 
 
-
 #corpo {
     padding: 0px 10px;
 }
 
-footer > p {
+aside {
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+aside > h3 {
+    background-color: var(--cor4);
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside ul {
+    list-style-position: inside;
+    list-style-type: '\2714  ';
+    columns: 2;
+
+}
+
+
+footer  {
     text-align: center;
     background-color: var(--cor5);
     color: white;
+    font-size: 0.8em;
+    padding: 5px;
 }
